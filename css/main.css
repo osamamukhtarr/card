@@ -1,0 +1,47 @@
+*{text-transform:Capitalize !important;   
+}
+body{
+    background: black ;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #DC4C64;
+}
+.card{
+    /* padding: 20px; */
+    color: white;
+    background: #000;
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    
+}
+.card-body{
+    background: black;
+    
+}
+.form-control{
+    background: #333;
+    color: white;
+    font-weight: bold;
+
+}
+.form-control:focus{
+    background: #000000;
+    color: white;
+
+}
+.form-control::placeholder{
+    color: white;
+}
+.none {
+    display: none;
+}
+/* input#total {
+    color: white;
+    background: #000;
+    border-color: 1px solid #86b7fe !important;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+} */
